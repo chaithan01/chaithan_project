@@ -28,6 +28,6 @@ public class NumberstoWord
            if (n <1000) {
         	  return units[n / 100] + " Hundred" + ((n % 100 != 0) ? " " : "") + numtowordconvert(n % 100);
              }
-          
+          return "Invalid";
         }  
 }
